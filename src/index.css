@@ -10,7 +10,7 @@
   --clr-white: #FFFFFF;
   --clr-black: #202020;
   --clr-grey: #707070;
-  --clr-blue: #6C63FF;
+  --clr-blue: #0EA7E6;
   --clr-blue-2: #4c46b6;
   --clr-green: #4fb646;
 }
@@ -46,8 +46,10 @@ nav {
 
 .nav__brand h1 {
   color: var(--clr-blue);
-  font-size: 2.5em;
-  font-weight: 800;
+  font-size: 1em;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-top: 5px;
 }
 
 .nav__links {
