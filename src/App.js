@@ -39,6 +39,7 @@ function App() {
     const totalSupply =
       await realEstate.totalSupply();
     const homes = [];
+    console.log(totalSupply);
 
     for (var i = 1; i <= totalSupply; i++) {
       const uri = await realEstate.tokenURI(i);
