@@ -65,6 +65,8 @@ async function main() {
     await transaction.wait();
   }
 
+  const transaction = require("hardhat");
+
   // Listing properties...
   transaction = await escrow
     .connect(seller)

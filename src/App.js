@@ -90,7 +90,7 @@ function App() {
       <Search />
 
       <div className="cards__section">
-        <h3>Alux Web3 Properties </h3>
+        <h3>Alux Web3 </h3>
 
         <hr />
 

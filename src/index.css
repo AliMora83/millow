@@ -11,7 +11,7 @@
   --clr-black: #202020;
   --clr-grey: #707070;
   --clr-blue: #0EA7E6;
-  --clr-blue-2: #4c46b6;
+  --clr-blue-2: #080E23;
   --clr-green: #4fb646;
 }
 
@@ -29,6 +29,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
+  background-color: var(--clr-blue-2);
 }
 
 .nav__brand {
@@ -56,17 +57,19 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  color: var(--clr-blue);
   list-style: none;
 }
 
 .nav__links li {
   margin: 0 15px;
+  color: var(--clr-blue);
+
 }
 
 .nav__links li a {
   text-decoration: none;
-  color: var(--clr-black);
+  color: var(--clr-blue);
 }
 
 .nav__links li a:hover {
@@ -100,7 +103,7 @@ nav {
 /* -- HEADER -- */
 
 header {
-  background-image: url("./assets/houses.png");
+  background-image: url("./assets/alux_bg.png");
   background-position: center;
   background-size: cover;
   min-height: 40vh;
@@ -124,7 +127,7 @@ header {
 .header__search {
   padding: 25px;
   min-width: 40%;
-
+  background-color: var(--clr-blue-2);
   position: absolute;
   top: 45%;
   left: 50%;
@@ -135,6 +138,7 @@ header {
   font-family: "Open Sans";
   font-size: 1.25em;
   font-weight: 600;
+  color: var(--clr-blue);
 }
 
 .header__search:hover {
