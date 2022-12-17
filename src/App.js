@@ -12,6 +12,7 @@ import Escrow from "./abis/Escrow.json";
 
 // Config
 import config from "./config.json";
+import Footer from "./components/footer";
 
 function App() {
   const [provider, setProvider] = useState(null);
@@ -82,7 +83,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="diva">
       <Navigation
         account={account}
         setAccount={setAccount}
@@ -90,9 +91,9 @@ function App() {
       <Search />
 
       <div className="cards__section">
-        <h3>Alux Web3 </h3>
+        {/* <h3>Alux Web3 </h3>
 
-        <hr />
+        <hr /> */}
 
         <div className="cards">
           {homes.map((home, index) => (
@@ -141,6 +142,7 @@ function App() {
           togglePop={togglePop}
         />
       )}
+      <Footer />
     </div>
   );
 }

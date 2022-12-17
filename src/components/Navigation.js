@@ -34,7 +34,13 @@ const Navigation = ({ account, setAccount }) => {
           <a href="/">About</a>
         </li>
         <li>
-          <a href="/">Contact</a>
+          <a
+            href="https://api.whatsapp.com/send?phone=18027720076"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Contact
+          </a>
         </li>
       </ul>
 
