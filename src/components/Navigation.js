@@ -15,22 +15,28 @@ const Navigation = ({ account, setAccount }) => {
 
   return (
     <nav>
-      <ul className="nav__links">
-        <li>
-          <a href="#">Buy</a>
-        </li>
-        <li>
-          <a href="#">Rent</a>
-        </li>
-        <li>
-          <a href="#">Sell</a>
-        </li>
-      </ul>
-
       <div className="nav__brand">
         <img src={logo} alt="Logo" />
         <h1>Web3 REAL ESTATE</h1>
       </div>
+
+      <ul className="nav__links">
+        <li>
+          <a
+            href="https://www.alux.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Alux.com
+          </a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
 
       {account ? (
         <button
