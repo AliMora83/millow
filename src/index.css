@@ -125,6 +125,7 @@ header {
 }
 
 .header__search {
+  border-radius: 25px;
   padding: 25px;
   min-width: 40%;
   background-color: var(--clr-blue-2);
