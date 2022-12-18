@@ -118,12 +118,26 @@ header {
 
 .header__title {
   position: absolute;
-  top: 25%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: transparent;
   color: var(--clr-white);
   font-size: 2em;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.header__p {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: var(--clr-white);
+  font-size: 0.9em;
   font-weight: 400;
   width: 100%;
   text-align: center;
