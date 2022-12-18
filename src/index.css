@@ -7,7 +7,7 @@
 }
 
 :root {
-  --clr-white: #FFFFFF;
+  --clr-white: #F2F2F2F2;
   --clr-black: #202020;
   --clr-grey: #707070;
   --clr-blue: #0EA7E6;
@@ -268,6 +268,7 @@ header {
 
 .home__details {
   display: grid;
+  border-radius: 15px;
   /* grid-template-columns: repeat(2, 1fr); */
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr));
   align-items: center;
