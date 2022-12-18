@@ -225,12 +225,18 @@ const Home = ({
                   Buy
                 </button>
               )}
-
-              <button className="home__contact">
-                Contact agent
-              </button>
+              <a
+                href="https://api.whatsapp.com/send?phone=18027720076"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="home__contact">
+                  Contact agent
+                </button>
+              </a>
             </div>
           )}
+          <br />
 
           <hr />
 
@@ -239,7 +245,7 @@ const Home = ({
           <p>{home.description}</p>
 
           <hr />
-
+          <br />
           <h2>Facts and features</h2>
 
           <ul>

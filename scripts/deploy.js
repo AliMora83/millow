@@ -68,7 +68,7 @@ async function main() {
   // const transaction = require("hardhat");
 
   // Listing properties...
-  transaction = await escrow
+  let transaction = await escrow
     .connect(seller)
     .list(
       1,
