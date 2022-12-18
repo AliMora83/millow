@@ -91,10 +91,6 @@ function App() {
       <Search />
 
       <div className="cards__section">
-        {/* <h3>Alux Web3 </h3>
-
-        <hr /> */}
-
         <div className="cards">
           {homes.map((home, index) => (
             <div
