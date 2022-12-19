@@ -116,7 +116,7 @@ contract Escrow {
         }
     }
 
-    receive() external payable {}// to support receiving ETH by default
+    receive() external payable {} // to support receiving ETH by default
     fallback() external payable {}
 
     function getBalance() public view returns (uint256) {
