@@ -1,0 +1,33 @@
+{
+  "name": "LA Family Home",
+  "address": "112 Long Drive, Camano Island, LA 98282",
+  "description": "Comfy family home Las Angeles",
+  "image": "https://ipfs.io/ipfs/QmQUozrHLAusXDxrvsESJ3PYB3rUeUuBAvVWw6nop2uu7c/4.png",
+  "id": "4",
+  "attributes": [
+    {
+      "trait_type": "Purchase Price",
+      "value": 15
+    },
+    {
+      "trait_type": "Type of Residence",
+      "value": "Single family residence"
+    },
+    {
+      "trait_type": "Bed Rooms",
+      "value": 3
+    },
+    {
+      "trait_type": "Bathrooms",
+      "value": 3
+    },
+    {
+      "trait_type": "Square Feet",
+      "value": 2300
+    },
+    {
+      "trait_type": "Year Built",
+      "value": 2020
+    }
+  ]
+}

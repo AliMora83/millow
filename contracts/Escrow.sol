@@ -9,6 +9,7 @@ interface IERC721 {
     ) external;
 }
 
+
 contract Escrow {
     address public nftAddress;
     address payable public seller;
@@ -115,7 +116,8 @@ contract Escrow {
         }
     }
 
-    receive() external payable {}
+    receive() external payable {}// to support receiving ETH by default
+    fallback() external payable {}
 
     function getBalance() public view returns (uint256) {
         return address(this).balance;
